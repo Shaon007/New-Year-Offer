@@ -78,6 +78,8 @@ h1 {
 
 .deals-top h3 {
   /* border: 2px solid green; */
+  margin: 0;
+  padding: 0;
   color: #F00;
   text-align: center;
   font-family: Inter;
@@ -167,3 +169,51 @@ h1 {
   margin: 68px 120px 67px 20px;
 }
 
+/* join section  */
+.join-container{
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 100px; */
+}
+.join-text {
+  padding-top: 100px;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  margin: 0 auto 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1320px;
+  height: 482px;
+}
+
+.join-text h3 {
+  color: #070211;
+  font-family: Inter;
+  padding: 0%;
+  margin: 10px;
+  font-size: 32px;
+  /* font-style: normal; */
+  font-weight: 600;
+  /* line-height: 56px; */
+
+}
+
+.join-button {
+  color: white;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  width: 167px;
+  border-radius: 8px;
+  background: #F00;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 48px;
+}
