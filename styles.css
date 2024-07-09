@@ -14,7 +14,7 @@ h1 {
 .main {
   width: 1600px;
   margin: 0 auto;
-  border: 2px solid;
+  /* border: 2px solid; */
 
 }
 
@@ -464,7 +464,7 @@ h1 {
   /* border: 2px solid; */
   width: 1320px;
   height: 736px;
-  margin: 0 auto 120px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -521,6 +521,11 @@ h1 {
   border: none;
 }
 
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .sub-image img {
   height: 150px;
   padding-top: 80px;
@@ -544,4 +549,98 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+}
+
+/* footer section */
+.footer-container {
+  /* border: 2px solid red; */
+  height: 609px;
+  width: 1600px;
+  margin: 0 auto;
+  background: #070211;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  margin: 70px 140px 70px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid white; */
+}
+.top-left{
+  /* border: 2px solid yellow; */
+}
+.top-left h4 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.top-right {
+  /* border: 2px solid salmon; */
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  padding: 0;
+}
+.top-right h3 h4{
+  padding: 0;
+  margin:0 ;
+}
+.call{
+  /* margin: 30px 16px; */
+  padding-right: 8px;
+
+}
+.web{
+  padding-right: 8px;
+}
+.footer-mid{
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-down {
+  /* border: 2px solid white; */
+  display: flex;
+  /* justify-content: space-around; */
+  /* margin: 100px 140px 120px ; */
+}
+
+.footer-down h3{
+  /* border: 2px solid gold; */
+  margin-top: 50px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+.footer-down{
+  margin: 0 140px 120px ;
+  /* padding: 0;
+  margin: 0; */
+}
+.down-left{
+  margin-left: 140px;
+  margin-right: 600px;
+}
+hr{
+  width: 1320px;
+  margin: o auto ;
+  color: gray;
+  /* background: rgba(255, 255, 255, 0.15); */
+
 }
